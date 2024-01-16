@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "generate-mercator-tiles-from-srtm"
+version = "1.0.0"
+description = "Generate hillshade WebMercator tiles from NASA SRTM data"
+authors = ["Max Franke <Max.Franke@vis.uni-stuttgart.de>"]
+license = "MIT"
+repository = "https://github.com/UniStuttgart-VISUS/generate-mercator-tiles-from-srtm"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+Pillow = "^10.1.0"
+matplotlib = "^3.8.2"
+earthpy = "^0.9.4"
+turfpy = "^0.0.7"
+requests = "^2.31.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

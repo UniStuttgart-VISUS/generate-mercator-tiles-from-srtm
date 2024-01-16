@@ -1,0 +1,8 @@
+/data/cookies.*
+/data/*.hgt.zip
+/data/netrc.*
+/.vscode/
+/tiles/
+__pycache__/
+/*.geo.json
+/empties.txt.gz
