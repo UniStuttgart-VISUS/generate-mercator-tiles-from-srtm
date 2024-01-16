@@ -1,5 +1,9 @@
 # Generate WebMercator Tiles from SRTM Altitude Data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10518201.svg)](https://doi.org/10.5281/zenodo.10518201)
+[![Dataset](./images/darus-badge.svg)](https://doi.org/10.18419/darus-3837)
+
+
 This repository contains the code to generate WebMercator "slippy map" tiles containing only hillshading from the SRTM altitude data provided by NASA.
 Such tiles can be useful, for example, in cases where the map material used cannot include political borders or infrastructure (e.g., for historical maps), and the use of commercial map material (e.g., Mapbox) is not an option.
 The map tiles generated from this code are available up to zoom level 12, published under the Creative Commons [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license on the long-term data repository of the University of Stuttgart (DaRUS), [here](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi%3A10.18419%2Fdarus-3837).
