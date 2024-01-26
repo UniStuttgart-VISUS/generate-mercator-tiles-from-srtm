@@ -200,7 +200,7 @@ def create_download_list(
         if polygon_file is not None:
             f.write('''// `layerGroup` with two members. The lower one is always shown, the higher one only above the given zoom level.
 const lowTileLayer = L.tileLayer(tileUrl, {
-  attribution: 'Map data &copy; 2024 <a href="https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-3837" target="_blank">Max Franke</a>',
+  attribution: 'Map tiles &copy; 2024 <a href="https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-3837" target="_blank">Max Franke</a>',
   maxNativeZoom: %d,
 });
 const highTileLayer = L.tileLayer(tileUrl, {
@@ -213,7 +213,7 @@ const tileLayer = L.layerGroup([lowTileLayer, highTileLayer]);
         else:
             f.write('''// tiles have the same level everywhere
 const tileLayer = L.tileLayer(tileUrl, {
-  attribution: 'Map data &copy; 2024 <a href="https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-3837" target="_blank">Max Franke</a>',
+  attribution: 'Map tiles &copy; 2024 <a href="https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-3837" target="_blank">Max Franke</a>',
   minNativeZoom: 12,
   maxNativeZoom: %d,
 });
