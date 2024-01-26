@@ -9,7 +9,7 @@ repository = "https://github.com/UniStuttgart-VISUS/generate-mercator-tiles-from
 [tool.poetry.dependencies]
 python = "^3.10"
 numpy = "^1.26.2"
-Pillow = "^10.1.0"
+Pillow = "^10.2.0"
 matplotlib = "^3.8.2"
 earthpy = "^0.9.4"
 turfpy = "^0.0.7"
